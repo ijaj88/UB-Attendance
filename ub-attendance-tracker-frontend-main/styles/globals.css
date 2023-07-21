@@ -1,0 +1,65 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+a { cursor: pointer; }
+
+.app-container {
+    min-height: 350px;
+}
+
+.app-logo {
+    color: white;
+    font-size: 125px;
+}
+
+@media (max-width: 767px) {
+  aside {
+    position: static;
+  }
+}
+
+/* .navbar,
+.navbar-collapse {
+  flex-direction: column;
+}
+.navbar-expand-lg .navbar-nav {
+  flex-direction: column;
+}
+.navbar {
+  width: 28%;
+  height: 100vh;
+  align-items: flex-start;
+}
+.navbar-brand {
+  margin-left: 0.5em;
+  padding-bottom: 0;
+  border-bottom: 4px solid #464646;
+}
+form input {
+  margin-bottom: 0.7em;
+} */
+
+/* .sidebar {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 16px;
+}
+
+.sidebar div a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+} */
+.react-confirm-alert-overlay {
+  background: rgba(255, 255, 255, 0);
+}
